@@ -2,7 +2,7 @@ package aula_8_6_Criando_arrays_de_objetos;
 
 public class Principal {
     public static void main(String[] args) {
-        Turma turmaB = new  Turma();
+        Turma turmaB = new Turma();
         turmaB.identificacao = "Maternal B";
         turmaB.nomeProfessora = "Tia Maria";
         // CRIAÇÃO DE UM ARRAY COM 3 ELEMENTOS:
@@ -20,8 +20,17 @@ public class Principal {
 
         turmaB.alunos[1] = aluno1;
 
+        turmaB.imprimirListaDeAlunos();
+        turmaB.imprimirListaDeAlunos2();
 
 
-
+        // PERCORRER O ARRAY DE ALUNOS:
+//        for (int i = 0; i < turmaB.alunos.length; i++) {
+//            Aluno aluno = turmaB.alunos[i];
+//            if ( aluno != null) {
+//                System.out.printf("%d - %s (%d anos) %n",
+//                        i, aluno.nome, aluno.idade);
+//            }
+//        }
     }
 }
