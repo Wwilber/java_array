@@ -6,8 +6,23 @@ public class Principal {
     public static void main(String[] args) {
 
         ArrayList<String> alunos = new ArrayList<>();
+        // ADICIONAR ELEMENTOS NO ARRAY:
+        alunos.add("João");
         alunos.add("Maria");
-        alunos.add("Pedro");
+
+        // SIZE = LENGTH:
+        for (int i = 0; i < alunos.size(); i++) {
+            String aluno = alunos.get(i);
+            System.out.println(aluno);
+        }
+        for (String aluno : alunos) {
+            System.out.println(aluno);
+        }
+
+
+
+
+
         /*
         String[] alunos = new String[2];
         alunos[0] = "João";
