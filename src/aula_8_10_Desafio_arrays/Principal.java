@@ -4,13 +4,22 @@ public class Principal {
     public static void main(String[] args) {
         Calendario mesesX = new Calendario();
         mesesX.meses = new String[13];
-        ;
 
-        mesesX.meses[0] = "Janeiro";
-        mesesX.meses[1] = "Fevereiro";
+        mesesX.meses[1] = "Janeiro";
+        mesesX.meses[2] = "Fevereiro";
+        mesesX.meses[3] = "Março";
+        mesesX.meses[4] = "Abril";
+        mesesX.meses[5] = "Maio";
+        mesesX.meses[6] = "Junho";
+        mesesX.meses[7] = "Julho";
+        mesesX.meses[8] = "Agosto";
+        mesesX.meses[9] = "Setembro";
+        mesesX.meses[10] = "Outubro";
+        mesesX.meses[11] = "Novembro";
+        mesesX.meses[12] = "Dezembro";
 
 
-        System.out.println(mesesX.meses[0]);
+        System.out.println(mesesX.meses[8]);
 
 //
 //
