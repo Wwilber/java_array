@@ -21,8 +21,7 @@ public class Principal {
 
         System.out.println(mesesX.meses[8]);
 
-//
-//
+
 //        mesesX.meses[1] = new Mes();
 //        mesesX.meses[1].mes = "Janeiro";
 //
