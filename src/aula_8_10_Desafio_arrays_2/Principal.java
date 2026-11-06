@@ -5,30 +5,31 @@ public class Principal {
     public static void main(String[] args) {
 
         Cardapio cardapio = new Cardapio();
-        cardapio.itens = new ItemCardapio[5];
+        // cardapio.itens = new ItemCardapio[5];
 
-        cardapio.itens[0] = new ItemCardapio();
-        cardapio.itens[0].descricao = "Rib Eye 500g";
-        cardapio.itens[0].preco = 95;
-
-        cardapio.itens[1] = new ItemCardapio();
-        cardapio.itens[1].descricao = "Picanha 400g";
-        cardapio.itens[1].preco = 102.6;
-
-        cardapio.itens[2] = new ItemCardapio();
-        cardapio.itens[2].descricao = "Batata Frita 300g";
-        cardapio.itens[2].preco = 12;
+//        cardapio.itens[0] = new ItemCardapio();
+//        cardapio.itens[0].descricao = "Rib Eye 500g";
+//        cardapio.itens[0].preco = 95;
+//
+//        cardapio.itens[1] = new ItemCardapio();
+//        cardapio.itens[1].descricao = "Picanha 400g";
+//        cardapio.itens[1].preco = 102.6;
+//
+//        cardapio.itens[2] = new ItemCardapio();
+//        cardapio.itens[2].descricao = "Batata Frita 300g";
+//        cardapio.itens[2].preco = 12;
 
         ItemCardapio itens = new ItemCardapio();
-        itens.descricao = "teste 4";
-        itens.preco = 99;
-        cardapio.itens[3] = itens;
+        itens.descricao = "Rib Eye 500g";
+        itens.preco = 95;
 
         ItemCardapio itens1 = new ItemCardapio();
-        itens1.descricao = "teste 5";
-        itens1.preco = 44;
-        cardapio.itens[4] = itens1;
+        itens1.descricao = "Picanha 400g";
+        itens1.preco = 102.6;
+//
 
+        cardapio.adicionarItem(itens);
+        cardapio.adicionarItem(itens1);
 
 
         // cardapio.adicionarItem(itens4.descricao, itens4.preco);
